@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.7.6'  # Specify an older Ruby version compatible with Rails 3.2.19
-gem 'rails', '3.2.19'
+# ruby '2.7.6'  # Specify an older Ruby version compatible with Rails 3.2.19
+gem 'rails', '3.2.17'
 # gem 'rails', '3.2.22'  # Updated to a version compatible with Rails 3.2.19
 
 # gem 'activerecord', '3.2.19'
@@ -17,8 +17,8 @@ gem 'therubyracer', :require => 'v8'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  # gem 'sass-rails',   '~> 3.2.3'
-  gem 'sass-rails', '~> 3.2.6'  # Updated to a version compatible with Rails 3.2.19
+  gem 'sass-rails',   '~> 3.2.3'
+  # gem 'sass-rails', '~> 3.2.6'  # Updated to a version compatible with Rails 3.2.19
   gem 'uglifier', '>= 1.0.3'
 end
 
