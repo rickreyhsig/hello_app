@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.17'
+ruby '2.7.6'  # Specify an older Ruby version compatible with Rails 3.2.19
+gem 'rails', '3.2.19'
+# gem 'rails', '3.2.22'  # Updated to a version compatible with Rails 3.2.19
+
+# gem 'activerecord', '3.2.19'
+# gem 'bundler', '~> 1.17.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,12 +17,8 @@ gem 'therubyracer', :require => 'v8'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  #gem 'coffee-rails', '~> 3.2.1'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
+  # gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 3.2.6'  # Updated to a version compatible with Rails 3.2.19
   gem 'uglifier', '>= 1.0.3'
 end
 
